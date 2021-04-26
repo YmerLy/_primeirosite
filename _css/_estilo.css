@@ -1,0 +1,141 @@
+body{
+    background: white;
+    font: 12px "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
+}
+a:link, a:active, a:visited{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+#container{
+    width: 80%;
+    /*centralizar o container principal*/
+    margin: 0 auto;
+}
+#logo a{
+    width: 240px;
+    height: 240px;
+    text-indent: -9999px;
+    display: block;
+    background: url(../_img/_logo2.png) no-repeat;
+    margin-left: 40%;
+}
+nav ul{
+    width: 97.2%;
+    min-width: 10%;
+    height: 20%;
+    min-width: 7%;
+    list-style: none;
+    display: block;
+    margin-top: -5%;
+    margin-bottom: -6%;
+    background-color: rgba(0, 140, 255, 0.87);
+    padding: 15px;
+    text-align: center;
+}
+nav ul li{
+    display: inline;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-left: 25px;
+}
+nav ul li a:hover{
+    color: rgba(1, 89, 172);
+}
+header{
+    padding: 15px 0;
+    margin-top: -3%;
+}
+#principal{
+    margin-top: 2%;
+    background: white;
+}
+#conteudos{
+    width: 78%;
+    min-width: 50%;
+    float: left;
+    margin-top: 5%;
+    background: white;
+}
+aside{
+    max-width: 20%;
+    min-width: 15%;
+    float: right;
+    margin-top: 5%;
+    color: white;
+    background: rgba(0, 140, 255, 0.87);;
+}
+aside section#depoimentos p{
+    text-indent: 25px;
+    text-align: justify;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+aside section#depoimentos img{
+    padding: 0;
+    width: 37%;
+    height: 37%;
+    margin-left: 35%;
+    margin-top: -20px;
+    border-radius: 50%;
+}
+.formContato{
+    margin-top: 5%;
+}
+.formContato h1{
+    font-style: italic;
+    font-size: 20px;
+    text-align: center;
+}
+.formContato form{
+    display: inline-block;
+    margin-left: 2%;
+}
+.formContato form label{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.formContato input{
+    border: none;
+    font-size: 18px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+button{
+    width: 70px;
+    height: 25px;
+    margin: 0 auto;
+}
+#assinatura{
+    display: block;
+    margin-top: 5%;
+    margin-left: 35%;
+    font-size: 18px;
+    font: italic;
+}
+span.separacao{
+    display: block;
+    padding: 0;
+    background: white;
+    margin-top: auto;
+    color: rgb(245, 245, 245);
+    width: 100%;
+    height: 10px;
+}
+section#post1 p{
+    float: right;
+    text-align: left;
+    
+}
+.img1, .img3{
+    float: left;
+    width: 320px;
+    height: 280px;
+}
+.img2{
+    float: right;
+    width: 320px;
+    height: 280px;
+}
